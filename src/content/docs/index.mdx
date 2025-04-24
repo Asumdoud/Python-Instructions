@@ -1,0 +1,37 @@
+---
+title: Welcome to Python
+description: Start learning the Python coding language!
+template: splash
+hero:
+  tagline: Congrats on starting your Python journey!
+  image:
+    file: ../../assets/py-logo.png
+  actions:
+    - text: Jump Into Learning
+      link: /guides/example/
+      icon: right-arrow
+    - text: "EasyCode"
+      link: https://www.learning.com/easycode/
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+<CardGrid stagger>
+	<Card title="Plan for the future" icon="seti:stylelint">
+		Learning a coding language is a great way to set you up for a future career.
+		Python is a diverse language with many similarities to other languages; learning Python is a great way to get into coding!
+	</Card>
+	<Card title="Add new content" icon="add-document">
+		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	</Card>
+	<Card title="Configure your site" icon="setting">
+		Edit your `sidebar` and other config in `astro.config.mjs`.
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	</Card>
+</CardGrid>
